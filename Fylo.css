@@ -1,0 +1,426 @@
+body {
+    background-color: hsl(218, 28%, 13%);
+    
+    font-family: 'Open Sans', sans-serif;
+    
+   
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+nav ul {
+    display: flex;
+    justify-content: end; 
+    gap: 20px;
+    list-style: none;
+}
+nav ul li a{
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-family: Raleway;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px; /* Add padding for spacing */
+}
+
+.center-photo {
+    width: 200px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the photo */
+}
+.big-text {
+    font-size: 2.5rem; /* Adjust as needed */
+    margin-bottom: 2px; /* Space below the big text */
+    color: white; /* Text color */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.big-textt {
+    font-size: 2.5rem; /* Adjust as needed */
+    margin-bottom: 10px; /* Space below the big text */
+    color: white; /* Text color */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.small-text {
+    font-size: 1.2rem; /* Adjust as needed */
+    margin-bottom: 20px; /* Space below the small text */
+    color: white; /* Text color */
+}
+
+.center-button {
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    color: white;
+    background-color: #0ba8ad; /* Button color */
+    border:none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.center-button:hover {
+    background-color: #055e61; /* Hover effect */
+}
+
+.icons-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; /* Space between rows */
+}
+
+.icon-row {
+    display: flex;
+    justify-content: center;
+    gap: 60px; /* Space between icons */
+}
+.icon-item {
+    max-width: 300px; /* Limit width for better readability */
+    text-align: center;
+}
+
+.icon {
+    width: 80px; /* Adjust icon size */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 15px; /* Space below the icon */
+}
+
+.icon-item h3 {
+    font-size: 1.5rem; /* Adjust as needed */
+    margin-bottom: 10px; /* Space below the heading */
+    color: white; /* Text color */
+}
+.icon-item p {
+    font-size: 1rem; /* Adjust as needed */
+    color: white; /* Text color */
+}
+.photo-text-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; /* Space between photo and text */
+    margin-top: 60px; /* Space above the section */
+    padding: 0 20px; /* Add padding for spacing */
+    max-width: 1200px; /* Limit the width of the section */
+    width: 100%; /* Ensure it takes full width */
+    margin-left: auto; /* Center the section */
+    margin-right: auto; /* Center the section */
+}
+
+.big-photo {
+    width: 50%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+.text-content {
+    width: 50%; /* Adjust as needed */
+    text-align: left; /* Align text to the left */
+}
+
+.text-content h2 {
+    font-size: 2rem; /* Adjust as needed */
+    margin-bottom: 20px; /* Space below the heading */
+    color: white; /* Text color */
+}
+
+.text-content p {
+    font-size: 1.1rem; /* Adjust as needed */
+    margin-bottom: 20px; /* Space below paragraphs */
+    color: white; /* Text color */
+}
+.cta-link {
+    font-size: 1rem;
+    color: cyan; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+    display:inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.arrow {
+    width: 25px;
+    height:25px;
+}
+
+.cta-link:hover {
+    text-decoration: underline; /* Hover effect */
+}
+
+.testimonials-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between boxes */
+    padding: 60px 20px; /* Add padding for spacing */
+    background-color: hsl(218, 28%, 13%); /* Light background color */
+}
+
+.testimonial-box {
+    background-color: hsl(219, 21%, 16%); /* Box background color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    max-width: 350px; /* Limit box width */
+    width: 100%; /* Ensure boxes take full width */
+    position: relative; /* For positioning the icon */
+}
+.testimonial-icon {
+    width: 30px; /* Icon size */
+    height: 30px; /* Icon size */
+    fill: cyan; /* Icon color */
+    position:absolute; /* Position the icon */
+    top: -10px; /* Distance from the top */
+    left: 5px; /* Distance from the left */
+}
+
+.testimonial-text {
+    font-size: 0.9rem; /* Text size */
+    color: white; /* Text color */
+    margin-top: 20px; /* Space below the icon */
+    margin-bottom: 20px; /* Space above the author section */
+}
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between photo and text */
+}
+
+.author-photo {
+    width: 40px; /* Circular photo size */
+    height: 40px; /* Circular photo size */
+    border-radius: 50%; /* Make the photo circular */
+    object-fit: cover; /* Ensure the photo fits */
+}
+.author-info h4 {
+    font-size: 0.8rem; /* Author name size */
+    color: white; /* Author name color */
+    margin: 0; /* Remove default margin */
+}
+
+.author-info p {
+    font-size: 0.7rem; /* Author title size */
+    color: white; /* Author title color */
+    margin: 0; /* Remove default margin */
+}
+
+.cta-section {
+    text-align: center;
+    padding: 20px 20px;
+    background-color:  hsl(219, 21%, 16%);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 55%;
+    height: 180px;
+  
+}
+
+.cta-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.cta-section p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    color: white;
+}
+.form-box {
+    
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 600px;
+    width: 60%;
+}
+.cta-section form {
+    display: flex;
+   
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cta-section input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    flex: 3;
+    margin-right: 10px;
+   
+
+}
+.cta-section button {
+    padding: 10px 20px;
+    background-color: cyan;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+   
+   
+}
+
+.cta-section button:hover {
+    background-color: rgba(0, 255, 255, 0.336);
+}
+footer {
+    background-color:  hsl(216, 53%, 9%);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-info, .footer-links, .footer-social {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-social .social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #444;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social .social-icon:hover {
+    background-color: #555;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .photo-text-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .big-photo, .text-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .testimonials-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonial-box {
+        max-width: 100%;
+    }
+
+    .cta-section {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .form-box {
+        width: 100%;
+    }
+
+    .cta-section form {
+        flex-direction: column;
+    }
+    .cta-section input {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-info, .footer-links, .footer-social {
+        text-align: center;
+        margin: 20px 0;
+    }
+}
+@media (max-width: 480px) {
+    .big-text, .big-textt {
+        font-size: 2rem;
+    }
+
+    .small-text {
+        font-size: 1rem;
+    }
+
+    .center-button {
+        width: 100%;
+    }
+
+    .icon-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .cta-section h2 {
+        font-size: 1.2em;
+    }
+
+    .cta-section p {
+        font-size: 0.8em;
+    }
+
+    .footer-social .social-icon {
+        margin: 5px;
+    }
+}
